@@ -4,11 +4,12 @@ function doGet(request) {
 
   // reads data from spreadsheet
   var document = SpreadsheetApp.getActiveSpreadsheet();
+  
+  // name of sheet with data
   var sheet = document.getSheetByName('Sheet1');
   var values = sheet.getDataRange().getValues();
   var datastream = [];
 
-  
   // iterates through rows
   for (var i=1; i<values.length; i++) {
     var row = {};
@@ -22,10 +23,8 @@ function doGet(request) {
     // pushes values to datastream
     datastream.push(row);
     
-    // console.log(datastream);
   }
 
   // returns datastream in JSON format
   return ContentService.createTextOutput(JSON.stringify({data: datastream})).setMimeType(ContentService.MimeType.JSON)
-
 }
