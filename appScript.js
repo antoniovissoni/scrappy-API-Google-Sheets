@@ -6,7 +6,7 @@ function doGet(request) {
   var document = SpreadsheetApp.getActiveSpreadsheet();
   
   // name of sheet with data
-  var sheet = document.getSheetByName('Sheet1');
+  var sheet = document.getSheetByName('data-sheet');
   var values = sheet.getDataRange().getValues();
   var datastream = [];
 
