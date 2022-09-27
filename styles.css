@@ -1,0 +1,27 @@
+/* variables */
+
+:root {
+    --primary: #000000;
+    --secondary: #000000;
+    --terciary: antiquewhite;
+}
+
+/* Resetting default styles */
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: monospace;
+}
+
+.container {
+    background-color: var(--terciary);
+    height: 200px;
+    width: 400px;
+}
