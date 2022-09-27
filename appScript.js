@@ -8,7 +8,7 @@ function doGet(request) {
   // name of sheet with data
   var sheet = document.getSheetByName('data-sheet');
   var values = sheet.getDataRange().getValues();
-  var datastream = [];
+  var data = [];
 
   // iterates through rows
   for (var i=1; i<values.length; i++) {
@@ -21,10 +21,10 @@ function doGet(request) {
       }
 
     // pushes values to datastream
-    datastream.push(row);
+    data.push(row);
     
   }
 
   // returns datastream in JSON format
-  return ContentService.createTextOutput(JSON.stringify({data: datastream})).setMimeType(ContentService.MimeType.JSON)
+  return ContentService.createTextOutput(JSON.stringify({datastream: data})).setMimeType(ContentService.MimeType.JSON)
 }
