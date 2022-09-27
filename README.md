@@ -117,5 +117,5 @@ Web app URL link:
 
 ## Acknowledgements
 
- - [Original idea by Varshith Hegde](https://dev.to/varshithvhegde/easy-way-to-create-your-own-api-for-free-1mbc)
+ - [Original idea by Varshith Hegde](https://varshithvhegde.me/)
 
