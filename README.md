@@ -1,7 +1,7 @@
 
 # Scrappy API using Google Sheets
 
-This is an free pseudo-API using a public Google Sheets and AppsScript.
+This is a free pseudo-API using a public Google Sheets and AppsScript.
 
 Can be used for times when you just need to retrieve data easily and do not really care about security (which is probably a bad idea).
 
