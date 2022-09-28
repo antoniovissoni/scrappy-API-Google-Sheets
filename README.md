@@ -3,9 +3,9 @@
 
 This is an free pseudo-API using a public Google Sheets and AppsScript.
 
-Can be used for times when you just need to retrieve data easily and do not really care about security.
+Can be used for times when you just need to retrieve data easily and do not really care about security (which is probably a bad idea).
 
-This is not indended as a replacement for an actual API, but more of a temporary measure when working with small front-end projects or hackathons. Use it with caution. 
+This is not indended as a replacement for an actual API, but more of a temporary measure when working with small front-end projects or hackathons. Use it with caution. Good luck!
 
 
 ## Google Sheets
@@ -86,7 +86,7 @@ Save, run and deploy:
 Review permissions:
 
 ```bash
-  Go to 'Show Advanced' and follow your link to your API.  
+  Go to 'Show Advanced' and follow the link to your API (this message appears when you are not a verified developer).  
 ```
 
 ![App Screenshot](/screenshots/authorization_required.png)
